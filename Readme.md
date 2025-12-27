@@ -1,0 +1,2 @@
+# Linux Interface
+Simple C programs to learn the Linux syscall interface. I try to implement small programs from *coreutils* like `cp`, `tee`, `cat` etc while reading the fantastic book *The Linux Programming Interface.*
