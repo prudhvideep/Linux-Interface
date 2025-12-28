@@ -8,7 +8,7 @@
 #define BUF_LEN 1000
 #endif
 
-int test_main(int argc, char **argv) {
+int main(int argc, char **argv) {
   int input_fd, output_fd;
   int output_options;
   mode_t file_perms;

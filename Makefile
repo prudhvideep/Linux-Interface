@@ -1,11 +1,11 @@
 CC = clang
 CFLAGS = -Wall -Wextra -pedantic -std=c11 -g
 
-CFILES = $(wildcard *.c)
-OFILE = my_tee
+CFILE = tee.c
+OFILE = tee
 
-$(OFILE) : $(CFILES)
-	$(CC) $(CFLAGS) $(CFILES) -o $(OFILE)
+$(OFILE) : $(CFILE)
+	$(CC) $(CFLAGS) $(CFILE) -o $(OFILE)
 
 run:
 	@./$(OFILE)
